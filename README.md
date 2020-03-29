@@ -17,7 +17,7 @@ TBD, simple table to compare models...
 ### International CFR (Case Fatality Rate) Models
 
 | Model            | COVID-19 CFR  | CI 95% | WHO CFR (at the time) | crude CFR |Date |
-| ---------------- |:-------------:|:------:|:---------------------:|:----:| 
+| ---------------- |:-------------:|:------:|:---------------------:|:---------:|:----:| 
 | [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4% | | 3.4% |  4.4% | 2020-03-26 |
 | [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - China | 3.0% | 2.6-3.4% | 3.4% | | 2020-03-22 |
 | [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - Italy | 3.3% | 2.0-4.7% | 3.4% | | 2020-03-22 |
