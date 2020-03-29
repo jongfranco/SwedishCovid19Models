@@ -25,9 +25,12 @@ We collect raw as well as cleaned (pre-processed, filtered, and curated) data fo
 
 ### Cleaned Swedish data
 
-Swedish Incidence data from ECDC: [all_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/all_swedish_cases_incidence_20200328_1036.csv)
+ECDC data for Sweden:
+- incidence data, all cases: [all_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/all_swedish_cases_incidence_20200328_1036.csv)
+- incidence data, starting from 3 days before first case: [start_minus3_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/start_minus3_swedish_cases_incidence_20200328_1036.csv)
 
-Swedish Incidence data from ECDC, starting from first case -3 days: [start_minus3_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/start_minus3_swedish_cases_incidence_20200328_1036.csv)
+[Folkhälsomyndigheten](https://experience.arcgis.com/experience/09f821667ce64bf7be6f9f87457ed9aa):
+- age distributed: [age_distributions_cases_and_deaths/20200328_1634.csv](data/raw/Folkhalsomyndigheten/age_distributions_cases_and_deaths/20200328_1634.csv)
 
 ## Papers
 
