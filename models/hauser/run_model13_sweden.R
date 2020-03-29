@@ -1,5 +1,5 @@
 # Setup ----
-source("data/clean/sweden/data_management_sweden.R")
+source("models/hauser/data_management_sweden.R")
 options(mc.cores = parallel::detectCores())
 library(socialmixr)
 ## Compute discrete distribution of time from onset to death ----
