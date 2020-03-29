@@ -25,6 +25,10 @@ We collect raw as well as cleaned (pre-processed, filtered, and curated) data fo
 
 ### Cleaned Swedish data
 
+Swedish Incidence data from ECDC: [all_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/all_swedish_cases_incidence_20200328_1036.csv)
+
+Swedish Incidence data from ECDC, starting from first case -3 days: [start_minus3_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/start_minus3_swedish_cases_incidence_20200328_1036.csv)
+
 ## Papers
 
 We collect relevant research papers and pre-prints on modeling in relation to COVID-19 and other, relevant epidemics.
