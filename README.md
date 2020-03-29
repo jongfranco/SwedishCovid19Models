@@ -16,11 +16,13 @@ TBD, simple table to compare models...
 
 ### International CFR (Case Fatality Rate) Models
 
-| Model            | COVID-19 CFR  | WHO CFR (at the time) | Date |
-| ---------------- |:-------------:|:---------------------:|:----:| 
-| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4% | 3.4% | 2020-03-19 |
-| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - China | 3.0% (2.6-3.4%) | 3.4% | 2020-03-22 |
-| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - Italy | 3.3% (2.0-4.7%) | 3.4% | 2020-03-22 |
+| Model            | COVID-19 CFR  | CI 95% | WHO CFR (at the time) | Date |
+| ---------------- |:-------------:|:------:|:---------------------:|:----:| 
+| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4% | | 3.4% | 2020-03-19 |
+| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - China | 3.0% | 2.6-3.4% | 3.4% | 2020-03-22 |
+| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - Italy | 3.3% | 2.0-4.7% | 3.4% | 2020-03-22 |
+
+The CI column lists the confidence interval for frequentist analyses and credible interval for bayesian analysis when applicable / available.
 
 Further links and details:
 - [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Better estimation techniques for CFR based on Expectation Maximization. Recommends that crude CFR shouldn't be used as it is unreliable.
