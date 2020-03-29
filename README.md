@@ -28,7 +28,7 @@ Further links and details:
 - [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Better estimation techniques for CFR based on Expectation Maximization. Recommends that crude CFR shouldn't be used as it is unreliable.
   * 2020-03-19: Estimates a global corrected CFR of 2.4% for COVID-19, in contrast to WHO estimate of 3.4% and data indicating 4.4%.
 - [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr), a Bayesian CFR model from Hauser et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
-  * This underestimates the total deaths since it predicts deaths among people already infected during the period of interest, i.e. it does not model people that will be infected after the period for which you have data. This is since the goal is to get a better estimate of Case Fatality Rate.
+  * This underestimates the total deaths since it predicts deaths among people already infected during the period of interest, i.e. it does not model people that will be infected after the period for which you have data. This is since the goal is to get a better estimate of Case Fatality Rate, not to predict cases or deaths.
 
 ## Data
 
