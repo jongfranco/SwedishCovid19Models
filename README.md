@@ -16,15 +16,20 @@ TBD, simple table to compare models...
 
 ### International CFR (Case Fatality Rate) Models
 
-| Model            | COVID-19 CFR  | WHO CFR (at the time)  |
-| ---------------- |:-------------:| :---------------------:|
-| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4%          | 3.4% (2020-03-19)      |
+| Model            | COVID-19 CFR  | CI 95% | WHO CFR (at the time) | crude CFR |Date |
+| ---------------- |:-------------:|:------:|:---------------------:|:---------:|:----:| 
+| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Global | 2.4% | | 3.4% |  4.4% | 2020-03-26 |
+| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - China | 3.0% | 2.6-3.4% | 3.4% | | 2020-03-22 |
+| [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - Italy | 3.3% | 2.0-4.7% | 3.4% | | 2020-03-22 |
+
+The CI column lists the confidence interval for frequentist analyses and credible interval for bayesian analysis when applicable / available. WHO CFR is their global estimate regardless of country listed above and "crude CFR" refers to the naïve estimator.
 
 Further links and details:
 - [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Better estimation techniques for CFR based on Expectation Maximization. Recommends that crude CFR shouldn't be used as it is unreliable.
   * 2020-03-19: Estimates a global corrected CFR of 2.4% for COVID-19, in contrast to WHO estimate of 3.4% and data indicating 4.4%.
-- [Bayesian CFR (Case Fatality Rate) model](https://github.com/jriou/covid_adjusted_cfr) from Riou et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
-  * This underestimates the total deaths since it predicts deaths among people already infected during the period of interest, i.e. it does not model people that will be infected after the period for which you have data. This is since the goal is to get a better estimate of Case Fatality Rate.
+  * [Code is available](https://github.com/aangelopoulos/cfr-covid-19) for applying this method.
+- [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr), a Bayesian CFR model from Hauser et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
+  * This underestimates the total deaths since it predicts deaths among people already infected during the period of interest, i.e. it does not model people that will be infected after the period for which you have data. This is since the goal is to get a better estimate of Case Fatality Rate, not to predict cases or deaths.
 
 ## Data
 
