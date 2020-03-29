@@ -103,8 +103,13 @@ data_list_model13 = list(
 # test model13d for Sweden because incidence_case is not known for the whole period
 M_model13 = stan_model("models/hauser/model13d.stan")
 
-# We need to set this for there to be no exceptions so use case A below for now
-data_list_model13$p_psi=c(71,18)  
+# Select either model A or B below. For now we use B.
+
+# symptomatic = 80% (A) (Bi et al) 
+#data_list_model13$p_psi=c(71,18)
+
+# symptomatic = 50% (B) (Diamond princess https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000180) 
+data_list_model13$p_psi=c(522,114) 
 
 # Check that it compiles and code is validated
 T_model13 = sampling(M_model13,
@@ -116,7 +121,7 @@ T_model13 = sampling(M_model13,
 
 data_list_model13$inference=1
 
-S_model13ITB = sampling(M_model13,
+S_model13SE = sampling(M_model13,
                      data = data_list_model13,
                      iter = 1000,
                      chains = 4,
@@ -124,18 +129,18 @@ S_model13ITB = sampling(M_model13,
                      control=list(adapt_delta=0.99))
 
 # Checks
-check_hmc_diagnostics(S_model13ITB)
+check_hmc_diagnostics(S_model13SE)
 # Looks good
 
-print(S_model13ITB,pars=c("beta","epsilon","rho","pi","psi"), digits_summary=4)
+print(S_model13SE,pars=c("beta","epsilon","rho","pi","psi"), digits_summary=4)
 # Good ESS and good Rhat
 
-print(S_model13ITB,pars=c("cfr_A_symptomatic","cfr_B_symptomatic",
+print(S_model13SE,pars=c("cfr_A_symptomatic","cfr_B_symptomatic",
                           "cfr_C_symptomatic","cfr_D_symptomatic",
                           "cfr_C_all","cfr_D_all"),digits_summary=5)
 # Good ESS and good Rhat
 
-mcmc_trace(S_model13ITB, regex_pars = c("beta","epsilon","rho","pi","psi"))
+mcmc_trace(S_model13SE, regex_pars = c("beta","epsilon","rho","pi","psi"))
 # Traces look ok.
 
 
