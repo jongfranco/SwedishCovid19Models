@@ -15,7 +15,7 @@ TBD, simple table to compare models...
 ### Models
 
 Internationally:
-- [Bayesian CFR (Case Fatality Rate) model](https://github.com/jriou/covid_adjusted_cfr/tree/master/manuscript) from Riou et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
+- [Bayesian CFR (Case Fatality Rate) model](https://github.com/jriou/covid_adjusted_cfr) from Riou et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
 
 ## Data
 
