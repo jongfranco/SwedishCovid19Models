@@ -1,4 +1,4 @@
-# This is a simple SIR model which uses an ODE solver
+# This is a simple SIR model with ODE using Stan
 # https://jrmihalj.github.io/estimating-transmission-by-fitting-mechanistic-models-in-Stan/
 
 library(deSolve)
@@ -231,3 +231,4 @@ ggplot(df_sample, aes(x=sample_time, y=sample_prop)) +
   theme_classic() + 
   theme(axis.line.x = element_line(color="black"),
         axis.line.y = element_line(color="black"))
+
