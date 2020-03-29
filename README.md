@@ -34,6 +34,6 @@ We collect raw as well as cleaned (pre-processed, filtered, and curated) data fo
 
 ## Papers
 
-We collect relevant research papers and pre-prints on modeling in relation to COVID-19 and other, relevant epidemics. [See this file for links to all the papers](papers/), below we just list the ones for Sweden:
+We collect relevant research papers and pre-prints on modeling in relation to COVID-19 and other, relevant epidemics. [See this file for links to all the papers](papers/Covid19ModelingPapers.md), below we just list the ones for Sweden:
 
 - TBD
