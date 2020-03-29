@@ -23,8 +23,7 @@ gamma = 0.10
 # structures.
 # Store parameters and initial values
 # Parameters must be stored in a named list.
-params <- list(beta = beta,
-               gamma = gamma)
+params <- list(beta = beta, gamma = gamma)
 
 # Initial conditions are stored in a vector
 inits <- c(S0, I0, R0)
