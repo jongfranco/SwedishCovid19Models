@@ -1,6 +1,7 @@
 SI_fit.rds  
 SI_fit.stan 
 .DS_store
+model.rds
 .Rproj.user
 .Rhistory
 .RData
