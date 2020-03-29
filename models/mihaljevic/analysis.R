@@ -12,7 +12,7 @@ options(mc.cores = parallel::detectCores())
 # In practice, these will likely be unknown, but can be estimated from the data.
 
 I0 = 0.02    # initial fraction infected
-S0 = 1 - I0 # initial fraction susceptible
+S0 = 1 - I0  # initial fraction susceptible
 R0 = 0
 
 # Assign transmission and pathogen-induced death rates:
