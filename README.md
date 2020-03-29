@@ -18,11 +18,11 @@ TBD, simple table to compare models...
 
 | Model            | COVID-19 CFR  | CI 95% | WHO CFR (at the time) | crude CFR |Date |
 | ---------------- |:-------------:|:------:|:---------------------:|:---------:|:----:| 
-| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4% | | 3.4% |  4.4% | 2020-03-26 |
+| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Global | 2.4% | | 3.4% |  4.4% | 2020-03-26 |
 | [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - China | 3.0% | 2.6-3.4% | 3.4% | | 2020-03-22 |
 | [Hauser2020v2](https://github.com/jriou/covid_adjusted_cfr) - Italy | 3.3% | 2.0-4.7% | 3.4% | | 2020-03-22 |
 
-The CI column lists the confidence interval for frequentist analyses and credible interval for bayesian analysis when applicable / available.
+The CI column lists the confidence interval for frequentist analyses and credible interval for bayesian analysis when applicable / available. WHO CFR is their global estimate regardless of country listed above and "crude CFR" refers to the naïve estimator.
 
 Further links and details:
 - [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Better estimation techniques for CFR based on Expectation Maximization. Recommends that crude CFR shouldn't be used as it is unreliable.
