@@ -8,13 +8,19 @@ Our goal is not to point out one, "best" model but to get strength in numbers, i
 
 ## Models
 
-### Model comparison
+### Model comparisons
+
+### Swedish Incidence Models
 
 TBD, simple table to compare models...
 
-### Case Fatality Rate Models
+### International CFR (Case Fatality Rate) Models
 
-Internationally:
+| Model            | COVID-19 CFR  | WHO CFR (at the time)  |
+| ---------------- |:-------------:| :---------------------:|
+| [Angelopoulos2020](https://arxiv.org/abs/2003.08592) | 2.4%          | 3.4% (2020-03-19)      |
+
+Further links and details:
 - [Angelopoulos2020](https://arxiv.org/abs/2003.08592) - Better estimation techniques for CFR based on Expectation Maximization. Recommends that crude CFR shouldn't be used as it is unreliable.
   * 2020-03-19: Estimates a global corrected CFR of 2.4% for COVID-19, in contrast to WHO estimate of 3.4% and data indicating 4.4%.
 - [Bayesian CFR (Case Fatality Rate) model](https://github.com/jriou/covid_adjusted_cfr) from Riou et al at University of Bern. ([Latest PDF](https://github.com/jriou/covid_adjusted_cfr/blob/master/manuscript/manuscript_v2.pdf))
