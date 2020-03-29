@@ -25,7 +25,7 @@ We collect raw as well as cleaned (pre-processed, filtered, and curated) data fo
 
 ### Cleaned Swedish data
 
-ECDC data for Sweden:
+[ECDC data](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) for Sweden:
 - incidence data, all cases: [all_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/all_swedish_cases_incidence_20200328_1036.csv)
 - incidence data, starting from 3 days before first case: [start_minus3_swedish_cases_incidence_20200328_1036.csv](data/clean/sweden/start_minus3_swedish_cases_incidence_20200328_1036.csv)
 
