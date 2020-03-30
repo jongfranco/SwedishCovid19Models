@@ -1,0 +1,59 @@
+Several SIR models for Gillespie.jl here:
+https://github.com/sdwfrost/Gillespie.jl/tree/master/examples
+
+SIR, Reaction network example can also be found here:
+https://docs.sciml.ai/stable/tutorials/discrete_stochastic_example/
+
+example:
+
+using DiffEqBiological
+sir_model = @reaction_network SIR begin
+    c1, s + i --> 2i
+    c2, i --> r
+end c1 c2
+params = (1.0,2.0)
+tspan = (0.,4.)
+u0 = [5.]
+sprob = SDEProblem(sir_model, u0, tspan, params)
+ssol  = solve(sprob, EM(), dt=.01)
+
+# We can also use ReactionNetworkImporters.jl to import from 3 sources:
+#  1. A subset of BioNetGen .net files that can be generated from a BioNetGen language file (.bngl). (.net files can be generated using the generate_network command within BioNetGen.)
+#    - 
+#  2. Reaction networks specified by dense or sparse matrices encoding the stoichiometry of substrates and products within each reaction.
+#  3. Networks defined by the basic file format used by the RSSA group at COSBI in their model collection.
+#    - I checked the COSBI model collection for SEIR, SEIV, SEIVD models but nothing there.
+
+# Based on extensions to SIR here https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#Elaborations_on_the_basic_SIR_model
+#
+# we try to express them in DiffEqBiological terms:
+seir_model = @reaction_network SIR begin
+    c1, s + i --> e + i
+    c2, e --> i
+    c3, i --> r
+end c1 c2 c3
+
+# And maybe also the SEIRD model like so:
+using DiffEqBiological
+seird_model = @reaction_network SEIRD begin
+    c1, s + i --> e + i
+    c2, e --> i
+    c3, i --> r
+    c4, i --> d
+end c1 c2 c3 c4
+params = rand(4) # We don't know so start from some random ones and estimate below
+PopulationSweden = 10.8e6
+u0 = [PopulationSweden, 0, 0, 0, 0]
+tspan = (0.0, 60.0) # Days numbered from 0
+sprob = SDEProblem(seird_model, u0, tspan, params)
+
+# But what if we want to estimate params and we have no info on E or R but only S,I,D? Not clear if DiffEqBayes supports this.
+using DiffEqBayes, Distributions
+# Not sure what prios to put on rate constants though
+priors = [Truncated(Normal(1.0,0.1),0,4),Truncated(Normal(1.0,0.1),0,4),
+          Truncated(Normal(1.0,0.1),0,4),Truncated(Normal(1.0,0.1),0,4),
+          Truncated(Normal(1.0,0.1),0,4)]
+t = collect(range(first(tspan),stop=last(tspan),length=100))
+bayesian_result = stan_inference(sprob,t,data,priors;
+                                 num_samples=100,num_warmup=500,
+                                 vars = (StanODEData(),InverseGamma(4,1)))
