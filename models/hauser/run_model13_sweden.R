@@ -2,6 +2,7 @@
 source("data/clean/sweden/data_management_sweden.R")
 options(mc.cores = parallel::detectCores())
 library(socialmixr)
+library(bayesplot)
 ## Compute discrete distribution of time from onset to death ----
 
 # Fom Linton et al
@@ -32,6 +33,8 @@ cm <- contact_matrix(polymod, countries = "Germany",
                      missing.participant.age = "remove")
 
 contact_data <- as.vector(t(cm$matrix))
+
+# Data for Italy below
 # contact_data = c(5.13567073170732, 1.17274819632136, 0.982359525171638, 
 #                  2.21715890088845, 1.29666356906914, 0.828866413937242, 
 #                  0.528700773224482, 0.232116187961884, 0.0975205061876398, 
