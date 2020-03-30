@@ -1,0 +1,6 @@
+In the first two files:
+20200328_1000.csv
+20200328_1634.csv
+the data for 80-89 and 90+ was merged into the row for 80. This is because of the model we was running at the time only considered 80+ and not 90+.
+
+We changed this from 2020-03-29 to really have the raw data here.
