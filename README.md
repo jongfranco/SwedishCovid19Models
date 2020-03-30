@@ -15,7 +15,7 @@ Our goal is not to point out one, "best" model but to get strength in numbers, i
 | Model            | % Infected | R0 | Date |
 | ---------------- |:----------:|:--:|:----:| 
 | [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Sweden | 3.1% [0.85%-8.4%] | 2.64 [1.40-4.18] | 2020-03-30 |
-| [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Norway | 3.1% [0.85%-8.4%] | 0.97 [0.14-2.14] | 2020-03-30 |
+| [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Norway | 0.41% [0.09%-1.2%] | 0.97 [0.14-2.14] | 2020-03-30 |
 | [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Italy | 9.8% [3.2%-26%] | 2020-03-30 |
 
 - [Flaxman200330](papers/localpdfs/flaxman2020.pdf) is a hierarchical Bayesian model comparing 11 European countries. They note that uncertainties are high though and that Sweden's R0 estimate might be higher since we have not ordered a lockdown; this might be a modeling artefact.
