@@ -1,0 +1,2 @@
+SEIR model using MCMC sampling from Turing.jl
+https://github.com/schrimpf/CovidSEIR.jl/
