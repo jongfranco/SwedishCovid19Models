@@ -1,0 +1,24 @@
+Title swedish: Skräckprognoser om corona försvårar för beslutfattare
+
+Title english: Scary corona scenarios complicates things for decision makers
+
+Author: Anders Björkman
+
+Position/role: Professor of Infectious Diseases
+
+Url: https://www.dn.se/debatt/skrackprognoser-om-corona-forsvarar-for-beslutfattare/
+
+Quotes swedish:
+- "Vi behöver inga skräckprognoser över antalet döda som skapar panik hos människor och näringsliv."
+- "Coronaepidemin i Sverige är allvarlig nog som den är."
+- "Skräckprognoserna över antalet döda försvårar politikers beslut om balans mellan åtgärder för hälsan och kostnader för samhället, det omöjliggör hälsoekonomiska bedömningar."
+
+Predictions:
+- "Min bedömning är att minst tio gånger fler infekteras med lindriga eller inga symtom alls. Dessa varken upptäcks eller rapporteras. Då reduceras dödligheten per smittad och sedermera immun från 1 procent till 0,1 procent."
+- "Om dessutom de som tillhör så kallade riskgrupper skyddas mer mot smitta och exponeras mindre än den yngre befolkningen sjunker dödlighetskvoten ytterligare. Om vi lyckas reducerar just deras risk femfalt är vi nere på 0,02 procent dödlighet bland smittade."
+- "Översätter man mina hypoteser ovan till antal i Sverige skulle vi få maximalt 1.000 dödsfall innan vi nått mer än 50 procent flockimmunitet. Det skulle innebära mindre än 1 procent av vår totala dödlighet under 2020, men med kanske 3 gånger så många (3.000) intensivvårdade."
+
+Point estimates:
+- Maximum 1000 total number of deaths in Sweden.
+- Corresponding to less than 1% of our total deaths in 2020.
+- Maybe 3 times (3000) as many requiring intensive care.
