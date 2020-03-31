@@ -24,6 +24,21 @@ Point predictions of the final number of total deaths in Sweden.
 | ---------------- |:----------:|:----:|:--------|
 | [Björkman200330](point_estimates/20200330_Bjorkman_DN_debatt.txt) | 1000 | 2020-03-30 | in near-time, for 2020 |
 
+### Swedish general models (Incidence, ICU need, Deaths)
+
+Values listed below are predicted peak value and peak date (day/month). As one example, [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) predicted on 2020-03-20 that on May 28th 2020 there is a need for 5,837 ICU hospital beds in Sweden if we have normal mobility and don't limit social distancing while with strong distancing this limits the ICU need to 686 beds and delays the peak to July 30th. The effect on the number of deaths is also stark, predicted at 16,748 in the former scenario but reduced to 3186 in the latter.
+
+| Model | Infections | ICU need / day | Deaths | Date |
+| ----- |:----------:|:--------:|:------:|:----:|  
+| [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) - 1 Normal mobility & distancing | 817,490 (17/5) | 5,837 (28/5) | 16,748 | 2020-03-20 |
+| [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) - 3 Normal mobility & strong distancing | 80,966 (19/7) | 686 (30/7) | 3,186 | 2020-03-20 |
+| [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) - 7 Low mobility & strong distancing | 115,362 (10/8) | 925 (17/8) | 3,866 | 2020-03-20 |
+| [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) - 9 Low mobility & strong distancing > age 60 | 860,146 (25/5) | 4,759 (8/6) | 13,097 | 2020-03-20 | 
+
+- [Sjodin20200320v1](https://www.medrxiv.org/content/10.1101/2020.03.20.20039594v1) paper estimates all 4 major outcome metrics for different scenarios. We summarize only a few scenarios above, see the paper for details. Their model is a "compartmental SEIR alike model including compartment for hospitalization and ICU care". Basically, they use ODE's and solve it at the level of municipalities where the municipality radiation model was calibrated using a N1H1 Influenza A model for Swedish influenza incidence. 
+  * The nine (9) scenarios studied are parameterized per municipality mobility (Normal 100% or Low 50%), social distancing (100%, 75%, 50%, 25%, 50%@>60). All scenarios also assume "Isolation of hospitalized cases and self-quarantine of apparent symptomatic infections". Each scenario is then further parameterized on the Infection Fatality Ratio (1.0%, 0.5%, 0.2%). We only show the medium, 0.5% IFR, in the table above.
+  * We have contacted the authors to be clear that we have not misunderstood the scenarios since the predicted numbers increase between scenario 3 and 7. Since the latter has lower mobility one might expect lower values. However, it might lead to longer time until immunity spreads and thus just flatten the curve and delay things.
+
 ### EU Infected and R0 Models
 
 | Model            | % Infected | R0 | Date |
