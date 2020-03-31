@@ -10,6 +10,8 @@ We also point to some good, external sites below that can give a general, graphi
 
 We invite everyone to contribute by building on or helping improve our models and information.
 
+**Disclaimer**: Research around COVID-19 is happening at a very fast pace around the world and very few papers have yet been fully peer reviewed. We thus caution that proper peer reviewing and acceptance of papers will be needed before we can truly know which models and approaches have been properly conceived and make sense. Still, since this is developing fast we think there is value in collecting what is out there and, as much as possible, to try it in a Swedish context. Thanks for your understanding.
+
 ## Graphs and overviews
 
 The current best graphical overview of the COVID-19 pandemic can, in our view, be found in the graphs and analysis from OurWorldInData so we [refer you there](https://flip.it/h.wzvd). A similar, graphical "tracker" for key data for Sweden was also recently added [here](https://c19.se/) and the more "official" one from Folkhälsomyndigheten [can be found here](https://experience.arcgis.com/experience/09f821667ce64bf7be6f9f87457ed9aa).
