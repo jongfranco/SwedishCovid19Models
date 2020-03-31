@@ -22,3 +22,6 @@ Point estimates:
 - Maximum 1000 total number of deaths in Sweden.
 - Corresponding to less than 1% of our total deaths in 2020.
 - Maybe 3 times (3000) as many requiring intensive care.
+
+Our assumptions:
+- We assume Björkman means total number of deaths in near-time, i.e. during 2020. We have not verified this with him, though.

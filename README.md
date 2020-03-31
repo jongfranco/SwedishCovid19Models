@@ -10,6 +10,14 @@ Our goal is not to point out one, "best" model but to get strength in numbers, i
 
 ### Model comparisons
 
+### Point estimates: Number of dead, final in total
+
+Point predictions of the final number of total deaths in Sweden.
+
+| Estimate         | Num. dead  | Date | Comment |
+| ---------------- |:----------:|:----:|:--------|
+| [Björkman200330](point_estimates/20200330_Bjorkman_DN_debatt.txt) | 1000 | 2020-03-30 | in near-time, for 2020 |
+
 ### EU Infected and R0 Models
 
 | Model            | % Infected | R0 | Date |
