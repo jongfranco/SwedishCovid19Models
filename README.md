@@ -32,7 +32,7 @@ Point predictions of the final number of total deaths in Sweden.
 | [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Norway | 0.41% [0.09%-1.2%] | 0.97 [0.14-2.14] | 2020-03-30 |
 | [Flaxman200330](papers/localpdfs/flaxman2020.pdf) - Italy | 9.8% [3.2%-26%] | |2020-03-30 |
 
-- [Flaxman200330](papers/localpdfs/flaxman2020.pdf) is a hierarchical Bayesian model comparing 11 European countries. They note that uncertainties are high though and that Sweden's R0 estimate might be higher since we have not ordered a lockdown; this might be a modeling artefact. The report will be updated weekly. The model is only fit on the number of reported deaths from ECDC data, no case data is used.
+- [Flaxman200330](papers/localpdfs/flaxman2020.pdf) is a hierarchical Bayesian model comparing 11 European countries. They note that uncertainties are high though and that Sweden's R0 estimate might be higher since we have not ordered a lockdown; this might be a modeling artefact. The report will be updated weekly. The model is only fit on the number of reported deaths from ECDC data, no case data is used. The (Stan) [code for this model is available](https://github.com/ImperialCollegeLondon/covid19model).
 
 ### International CFR (Case Fatality Rate) Models
 
