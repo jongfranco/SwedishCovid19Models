@@ -6,7 +6,13 @@ Our focus is on Sweden but our aim in the modeling is generality and modularity 
 
 Our goal is not to point out one, "best" model but to get strength in numbers, i.e. by seeing a number of different models and approaches and their predictions this can, taken together, help inform policy and decisions.
 
+We also point to some good, external sites below that can give a general, graphical overview of the current state of the pandemic. Our focus is on models and predictions, though.
+
 We invite everyone to contribute by building on or helping improve our models and information.
+
+## Graphs and overviews
+
+The current best graphical overview of the COVID-19 pandemic can, in our view, be found in the graphs and analysis from OurWorldInData so we [refer you there](https://flip.it/h.wzvd). A similar, graphical "tracker" for key data for Sweden was also recently added [here](https://c19.se/) and the more "official" one from Folkhälsomyndigheten [can be found here](https://experience.arcgis.com/experience/09f821667ce64bf7be6f9f87457ed9aa).
 
 ## Models
 
