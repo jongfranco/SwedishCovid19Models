@@ -1,14 +1,14 @@
 # SwedishCovid19Models
 
-We collect data, papers, and models for modeling/prediction in relation to COVID-19. Focus is on epidemiological modeling, typically with a statistical/stochastic flavor. 
+We collect data, papers, and models for modeling/prediction in relation to COVID-19. Focus is on epidemiological modeling, typically with a statistical/stochastic flavor. We also try to track predictions (mainly point estimates) that have been done in public fora.
 
-Our focus is on Sweden but our aim is generality and modularity so that others can apply to their context.
+Our focus is on Sweden but our aim in the modeling is generality and modularity so that others can apply to their context. We also track international models that include Sweden or that can be used as comparison points for Swedish models.
 
 Our goal is not to point out one, "best" model but to get strength in numbers, i.e. by seeing a number of different models and approaches and their predictions this can, taken together, help inform policy and decisions.
 
-## Models
+We invite everyone to contribute by building on or helping improve our models and information.
 
-### Model comparisons
+## Models
 
 ### Point estimates: Number of dead, final in total
 
