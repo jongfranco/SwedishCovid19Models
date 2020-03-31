@@ -10,7 +10,7 @@ We also point to some good, external sites below that can give a general, graphi
 
 We invite everyone to contribute by building on or helping improve our models and information.
 
-**Disclaimer**: Research around COVID-19 is happening at a very fast pace around the world and very few papers have yet been fully peer reviewed. We thus caution that proper peer reviewing and acceptance of papers will be needed before we can truly know which models and approaches have been properly conceived and make sense. Still, since this is developing fast we think there is value in collecting what is out there and, as much as possible, to try it in a Swedish context. Thanks for your understanding.
+**Disclaimer**: Research around COVID-19 is happening at a very fast pace around the world and very few papers have yet been fully peer reviewed. We thus caution that proper peer reviewing and acceptance of papers will be needed before we can truly know which models and approaches have been properly conceived and make sense. Still, since this is developing fast we think there is value in collecting what is out there and, as much as possible, to try it in a Swedish context. If you find an error, please file an issue above and we will do our best to quickly correct it. Thanks for your understanding.
 
 ## Graphs and overviews
 
