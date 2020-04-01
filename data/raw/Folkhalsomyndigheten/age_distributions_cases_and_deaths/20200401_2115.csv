@@ -1,0 +1,11 @@
+age_group,cases,deaths,source
+0,29,0,https://experience.arcgis.com/experience/09f821667ce64bf7be6f9f87457ed9aa
+10,123,0,
+20,360,1,
+30,448,0,
+40,644,1,
+50,922,12,
+60,720,16,
+70,726,62,
+80,679,99,
+90,293,48,
