@@ -13,6 +13,7 @@ Our analysis of this paper:
 - Their argument is compelling.
 - It thus seems likely that their estimate of 2.4% is a better CFR estimate than the ones from WHO.
 - However, since their estimate did go down with data from only 4 more days (from March 19th to March 23rd below) we would argue that applying their method on later data will be very revealing. If their CFR estimate continues to go down with more data this would indicate the estimate is still not "stable".
+- However, their method relies on reliable recovery data which we do not yet have for Sweden. This is probably why they focus on China and Italy as well as the global estimate.
 - [Code is available](https://github.com/aangelopoulos/cfr-covid-19) for applying this method.
 
 ## Versions and predictions
