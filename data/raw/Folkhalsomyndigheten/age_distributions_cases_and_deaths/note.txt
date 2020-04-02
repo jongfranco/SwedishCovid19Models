@@ -4,3 +4,6 @@ In the first two files:
 the data for 80-89 and 90+ was merged into the row for 80. This is because of the model we was running at the time only considered 80+ and not 90+.
 
 We changed this from 2020-03-29 to really have the raw data here.
+
+From 20200402 we process this data from the FHM excel sheet and thus
+have different row names and include info on the number of ICU patients.
