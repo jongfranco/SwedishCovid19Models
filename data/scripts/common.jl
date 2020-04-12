@@ -4,6 +4,7 @@ const CleanDataDir = joinpath(DataDir, "clean", "sweden")
 
 const ECDCDir = joinpath(RawDataDir, "ECDC")
 const FHMDir = joinpath(RawDataDir, "Folkhalsomyndigheten")
+const SCBDir = joinpath(RawDataDir, "SCB")
 
 function save_to_csv(prefix, df, origtimestamp, dir = CleanDataDir)
     filename = joinpath(dir, prefix * "_" * origtimestamp * ".csv")
